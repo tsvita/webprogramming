@@ -1,0 +1,52 @@
+@import 'reset';
+$colorValue: #FFFFFF;
+html {
+	height: 100%;
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Open Sans", sans-serif;
+	height: 100%;
+}
+#outerContainer {
+	height: 243px;
+	width: 710px;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+#profilePic {
+	width: 237.5px;
+	float: left;
+}
+#bioContainer {
+	width: 432.5px;
+	float: right;
+	line-height: 1.42857143;
+	// this doesn't work?
+	// margin: 0px 0px 14px;
+	p {
+		margin: 0px 0px 14px;
+		color: #666666;
+		letter-spacing: 1px;
+    	font-size: 12px;
+		font-family: 'Raleway', sans-serif;
+	}
+	a {
+		text-decoration: none;
+	}
+	h1 {
+		// why did I have to move this in here?? why couldn't i live in the class?
+		margin: 0px 0px 14px;
+		font-family: 'Raleway', sans-serif;
+	    font-weight: 600;
+	    letter-spacing: 2px;
+	    font-size: 40px;
+	    span {
+			color: #B8B8B8;
+    		font-weight: 300;
+	    }
+	}
+}
