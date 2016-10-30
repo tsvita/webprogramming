@@ -1,0 +1,82 @@
+@import 'reset';
+$colorValue: #FFFFFF;
+html {
+	height: 100%;
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	height: 100%;
+	color: white;
+	font-family: Raleway;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 28px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-top: 21px;
+}
+
+span {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+	width: 80px;
+	height: 1px;
+	display: block;
+	margin: 40px auto 0 auto;
+}
+img {
+	margin-top: 60px;
+	vertical-align: middle;
+}
+#filter {
+	background: rgba(0,0,0,0.8);
+	// Why do I need this?
+	height: 100%;
+}
+#stars {
+	background-image: url(http://vega-themes.com/vegablog/img/tech.png);
+	height: 100%;
+}
+#container {
+	background-image: url(http://vega-themes.com/vegablog/img/jumbo.jpg);
+	height: 520px;
+	background-color: black;
+	background-position: 50% -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+
+	i {
+		color: red;
+		font-size: 50px;
+		margin-top: 30px;
+	}
+}
+#layout {
+	height: 149px;
+	text-align: center;
+	span {
+		border-bottom-color: #444;
+		margin-top: 17px;
+	}
+	h1 {
+		color: #333;
+		font-size: 40px;
+		margin-top: 32px;
+	}
+	h2 {
+		color: #555;
+		font-weight: 700;
+		font-size: 16px;
+		margin-top: 41px;
+	}
+}

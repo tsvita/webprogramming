@@ -1,0 +1,62 @@
+@import 'reset';
+$colorValue: #FFFFFF;
+html {
+	height: 100%;
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	height: 100%;
+}
+#container {
+	background-image: url(http://dahz.daffyhazan.com/glossy/wp-content/uploads/2016/09/landing_21gt.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+#text-wrapper {
+	width: 550px;
+	position: relative;
+	top: 130px;
+	left: 90px;
+}
+h1 {
+	font-size: 48px;
+    color: #3d3c41;
+    line-height: 1.2;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+	font-size: 24px;
+    color: #bdbdbd;
+    line-height: 1.5;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+h3 {
+	font-family: "Work Sans";
+	font-size: 16px;
+	color: #0a0a0a;
+	margin-top: 28px;
+}
+#button {
+	margin-top: 35px;
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	h1 {
+		font-family: "Work Sans";
+		font-size: 16px;
+		color: white;
+	}
+}
